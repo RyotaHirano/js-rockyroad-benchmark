@@ -1,0 +1,19 @@
+{
+  "name": "js-rockyroad-benchmark",
+  "version": "0.0.0",
+  "description": "js-rockyroad-benchmark",
+  "private": true,
+  "scripts": {
+    "benchmark": "babel-node --ignore *.json",
+    "benchmark:all": "npm run benchmark -- ./*.js",
+    "postinstall": "npm run install:all"
+  },
+  "author": "RyotaHirano",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
